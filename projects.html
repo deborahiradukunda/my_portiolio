@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Projects - Deborah IRADDUKUNDA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="home.html" class="logo">Deborah</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu" id="navMenu">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="testimonials.html" class="nav-link">Testimonials</a>
+                <a href="blog.html" class="nav-link">Blog Page</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="projects-page">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p class="section-description">
+                    I have been working on software programs for three years, building<br>
+                    and improving applications that solve real-life problems and<br>
+                    strengthen my skills in coding, problem-solving, and system<br>
+                    design.
+                </p>
+            </div>
+
+            <!-- Project 1: Iwanyu Store -->
+            <div class="project-card">
+                <div class="project-info">
+                    <span class="project-tag orange">FinTech</span>
+                    <h3 class="project-title">IWANYU STORE</h3>
+                    <p class="project-description">
+                        I have been working as a developer for Iwanyu<br>
+                        Store, an e-commerce platform that connects<br>
+                        vendors with their clients, where I built and<br>
+                        maintain the company's website.
+                    </p>
+                    <a href="#" class="project-button orange">Learn Iwanyu</a>
+                </div>
+                <div class="project-image">
+                    <img src="assets/iwanyu.png" alt="Iwanyu Store">
+                </div>
+            </div>
+
+            <!-- Project 2: Ishema Hub Ltd -->
+            <div class="project-card reverse">
+                <div class="project-image">
+                    <img src="assets/ishema.jpg" alt="Ishema Hub">
+                </div>
+                <div class="project-info">
+                    <span class="project-tag blue">EdTech</span>
+                    <h3 class="project-title">ISHEMA HUB LTD</h3>
+                    <p class="project-description">
+                        I have spent the past year at Ishema Ltd serving as<br>
+                        their software developer, responsible for creating,<br>
+                        enhancing, and supporting the company's digital<br>
+                        systems and applications.
+                    </p>
+                    <a href="#" class="project-button blue">View ISHEMA</a>
+                </div>
+            </div>
+
+            <!-- Project 3: Inganji TEC -->
+            <div class="project-card">
+                <div class="project-info">
+                    <span class="project-tag green">Pharma</span>
+                    <h3 class="project-title">INGANJI TEC</h3>
+                    <p class="project-description">
+                        At Inganji TEC, I worked as a programmer,<br>
+                        mentoring younger developers and teaching them<br>
+                        technical skills to support their learning and<br>
+                        growth.
+                    </p>
+                    <a href="#" class="project-button green">View Inganji</a>
+                </div>
+                <div class="project-image">
+                    <img src="assets/inganji.jpg" alt="Inganji TEC">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p class="contact-intro">
+                    I'm always excited to connect with clients, collaborators, and fellow developers.<br>
+                    Whether you have a project in mind, want to discuss technology, or are interested in<br>
+                    learning from my experience, feel free to reach out. I look forward to building<br>
+                    something great together!
+                </p>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Please enter your email" required>
+
+                <label for="mobile">Mobile</label>
+                <input type="tel" name="phone" id="mobile" placeholder="Enter mobile">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
