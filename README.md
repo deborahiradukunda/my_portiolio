@@ -39,13 +39,6 @@ Raddi's_Portifolio/
 **Option 1** - Direct Open:
 ```bash
 open home.html
-```
-
-**Option 2** - Local Server:
-```bash
-python3 -m http.server 8000
-```
-Then visit: `http://localhost:8000/home.html`
 
 ## 📄 Pages
 
@@ -65,16 +58,6 @@ Then visit: `http://localhost:8000/home.html`
 - Accent Blue: `#0066ff`
 - Accent Green: `#00b894`
 
-## ✨ Customization
-
-Replace placeholder images in the `assets/` folder with your actual photos:
-- `profile.jpg` - Your profile picture (recommended: 400x400px)
-- `iwanyu.png`, `ishema.jpg`, `inganji.jpg` - Project screenshots
-- `avatar1-4.jpg` - Client profile pictures
-- `work1-2.jpg` - Recent work images
-
-Update text content in each HTML file to match your personal information.
-
 ## 📱 Responsive Design
 
 The website is fully responsive and adapts to:
@@ -89,7 +72,3 @@ Update social media links in `contact.html`:
 - LinkedIn
 - GitHub
 - Twitter
-
----
-
-Made with ❤️# Raddii-s_Portifolio
